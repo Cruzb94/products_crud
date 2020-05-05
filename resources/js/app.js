@@ -21,6 +21,11 @@ window.Vue = require('vue');
 
 Vue.component('add-product-component', require('./components/AddProductComponent.vue').default);
 Vue.component('table-products-component', require('./components/TableProductsComponent.vue').default);
+Vue.component('create-client-component', require('./components/CreateClientComponent.vue').default);
+Vue.component('table-clients-component', require('./components/TableClientsComponent.vue').default);
+Vue.component('create-document-component', require('./components/CreateDocumentComponent.vue').default);
+Vue.component('table-documents-component', require('./components/TableDocumentsComponent.vue').default);
+
 
 
 /**

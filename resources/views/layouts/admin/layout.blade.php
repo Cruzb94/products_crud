@@ -271,7 +271,7 @@ desired effect
           <i class="fa fa-user-circle-o"></i> <span>Usuarios</span></a>
         </li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li> -->
-        <li class="treeview">
+        <!-- <li class="treeview">
           <a href=""><i class="fa fa-user-circle-o"></i> <span>Productos</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
@@ -280,6 +280,28 @@ desired effect
           <ul class="treeview-menu">
             <li><a href="{{ route('products.index') }}">Listado de productos</a></li>
             <li><a href="{{ route('products.create') }}">Registrar producto</a></li>
+          </ul>
+        </li>  -->
+        <li class="treeview">
+          <a href=""><i class="fa fa-user-circle-o"></i> <span>Clientes</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ route('clients.index') }}">Listado de clientes</a></li>
+            <li><a href="{{ route('clients.create') }}">Registrar cliente</a></li>
+          </ul>
+        </li> 
+        <li class="treeview">
+          <a href=""><i class="fa fa-folder-open"></i> <span>Documentos</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ route('documents.index') }}">Listado de documentos</a></li>
+            <li><a href="{{ route('documents.create') }}">Registrar documento</a></li>
           </ul>
         </li> 
         
